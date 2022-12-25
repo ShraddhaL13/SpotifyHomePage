@@ -1,0 +1,67 @@
+.root{
+    text-align: center;
+}
+.item1{
+padding :0px 0px 2px ;
+font-size: 30px;
+font-weight: bold;
+}
+.item2{
+    font-weight: bold;
+}
+.btn{
+border-radius: 20px;
+width: 30%;
+background-color: #3B5998 ;
+color:white;
+padding : 10px;
+margin:10px;
+font-family: Verdana, Tahoma, sans-serif;
+
+}
+.fa-facebook{
+color: white;
+}
+
+.btn1{
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+    width: 30%;
+    padding: 10px;
+    background-color: black;
+    border-radius: 20px;
+}
+ .btn2{
+    background-color: white;
+    color: black;
+    width: 30%;
+    padding: 10px;
+    margin: 10PX;
+    border-radius: 20px;
+}
+.btn3{
+    background-color: white;
+    color: black;
+    width: 30%;
+    margin: 2PX;
+    padding: 10px;
+    border-radius: 20px;
+}
+ .btn4
+ {
+    background-color: green;
+    border-radius: 20px;
+    padding: 20px;
+    border: none;
+    font-weight: bold;
+ }
+ .big{
+    font-weight: bold;
+ }
+ .btn5{
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 20px;
+    border-radius: 20px;
+   
+ }
+                

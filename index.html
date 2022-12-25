@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify </title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="sign.html">
+  <link rel="stylesheet" href="Login.html">
+
+</head>
+
+<body>
+  <div class="root">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./images/splogo-i.png" width="100px" height="60px" />
+
+        </a>
+        <div class="navbar-collapse justify-content-end">
+          <ul class="navbar-nav">
+            <li><a class="nav-link" href="#">Premium</a></li>
+            <li><a class="nav-link" href="#">Support</a></li>
+            <li><a class="nav-link" href="#">Download</a></li>
+            <li><a class="nav-link" href="#">|</a></li>
+            <li><a class="nav-link" href="#home">Home</a></li>
+            <li><a class="nav-link" href="./Sign.html">Sign Up</a></li>
+            <li><a class="nav-link" href="./Login.html">Log In</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- middle part -->
+    <div class="container-item1   ">
+      <img class="item-2" src="./images/phone.jpg" width="20%" height="30%">
+      <span class="item-3 ">Play millions of songs and podcasts, for free.<br>
+        <button class="btn-button">
+          <a href="http://127.0.0.1:5500/Sign.html">GET SPOTIFY FREE</a></button>
+      </span>
+
+    </div>
+    <br>
+    <br>
+    <!-- Middle part why spotify  -->
+    <div class="container middle-part text-center ">
+      <h1 class="heading ">Why Spotify?</h1>
+      <div class="flex-conatianer">
+        <div>
+          <img src="./images/img1.png" width="50%" height="50%"><br><br>
+          <span class="font-weight-bold">Play your favorites.</span><br>
+          <span class="fs-mid"> Listen to the songs you love, and discover new music and podcasts.</span>
+        </div>
+        <div>
+          <img src="./images/img2.png" width="50%" height="50%"><br><br>
+          <span class="font-weight-bold">Playlists made easy.</span><br>
+          <span class="fs-mid"> We'll help you make playlists. Or enjoy playlists made by music experts.</span>
+        </div>
+        <div>
+          <img src="./images/img3.png" width="50%" height="50%"><br><br>
+          <span class="font-weight-bold"> Make it yours.</span><br>
+          <span class="fs-mid"> Tell us what you like, and we'll recommend music for you.</span>
+        </div>
+        <div>
+          <img src="./images/img4.png" width="50%" height="50%"><br><br>
+          <span class="font-weight-bold"> Save mobile data.</span><br>
+          <span class="fs-mid"> To use less data when you play music, turn on Data Saver in Settings.</span>
+        </div>
+      </div>
+    </div>
+    <br>
+    <!-- its free blocks -->
+    <div class="container-new">
+      <div class="itemNew text-center">It's free.<br>
+        No credit card required.
+      </div>
+    </div>
+
+    <!--(modal) got question -->
+    <div class=" container ">
+      <h1 class="text-center">Got questions?</h1>
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne">
+                How do I create a playlist?
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              <p> Playlists are a great way to save collections of music, either for your own listening or to share.</p>
+              To create one:
+              <ol class="number">
+                <li> Tap Your Library.</li>
+                <li>Tap CREATE.</li>
+                <li>Give your playlist a name. </li>
+                <li>Start adding songs (and we'll help you along). </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                aria-expanded="false" aria-controls="collapseTwo">
+                How do I activate Data Saver mode?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              <ol>
+                <li>Tap Home.</li>
+                <li>Tap Settings.</li>
+                <li>Tap Data Saver. </li>
+                <li>Switch on Data Saver. </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                aria-expanded="false" aria-controls="collapseThree">
+                Is it only possible to shuffle play music?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              <p> Any playlist with the shuffle icon will play on shuffle.</p>
+              <p> Some playlists won't have the shuffle icon, so you can tap any song to play it.</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                aria-expanded="false" aria-controls="collapseThree">
+                Where can I find Podcasts?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              <p>Tap Search. Under Browse All, tap Podcasts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <!-- ready tab -->
+    <div class="container-header">
+      <div class="itemNew2 text-center">Ready? Let’s play.<br>
+        <button class="Newbutton">GET SPOTIFY FREE</button>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="">
+      <div class="flex-conatianer  new2">
+        <div><img src="./images/splogo (1).png" width="40%" height="20%"></div>
+        <div>
+          <p>COMMPANY</p>
+          <p >About</p>
+          <p>Jobs</p>
+          <p>For the Record</p>
+        </div>
+
+        <div>
+          <p>COMMUNITIES</p>
+          <p>For Artists</p>
+          <p>Developers</p>
+          <p>Advertising</p>
+          <p>Inventors</p>
+          <p>Vendors</p>
+        </div>
+        <div>
+          <p>USEFUL LINKS</p>
+          <p>Sports</p>
+          <p>Web Player</p>
+          <p>Free Mobile App </p>
+        </div>
+        <div class="itemL">
+          <a href="https://www.instagram.com/spotify/" class="fa fa-instagram"></a>
+          <a href="https://twitter.com/spotify" class="fa  fa-twitter"></a>
+          <a href="https://www.facebook.com/Spotify" class="fa fa-facebook"></a>
+        </div>
+        <br>
+
+
+      </div>
+
+
+    </div>
+</body>
+
+</html>

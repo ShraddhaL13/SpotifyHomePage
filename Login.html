@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="./login.css">
+</head>
+
+<body>
+  <div class="root">
+    <div>
+      <img src="./images/logo.jpg" width="60px" height="50px"><span class="item1">Spotify</span>
+      <hr>
+      <p class="item2">To continue, log in to Spotify.</p>
+      <button class="btn"><a href="https://www.facebook.com/" class="fa fa-facebook">
+          CONTINUE WITH FACEBOOK</a></button><br>
+
+      <button class="btn1"><img src="./images/apple1.png" width="20px" height="20px">
+        <a
+          href="https://appleid.apple.com/auth/authorize?client_id=com.spotify.accounts&response_type=code&response_mode=form_post&scope=name%20email&state=AQAU9zS%2Bn%2BKH6oXt1aNlUfKgu8ugAKLNecK%2Fv%2FmtlJcBtayBNyDS5Nwrit8LZDd9pl2EdIlJ4sjf1SUNc4dcFhVbi3r9pG4PPOGRKesBhO4cw%2FdUbxbCRQIv0WLycXnOeKYhwtW8BmbfktQNGBhwqMcOaMS%2F8fZOjepknYSrBPIvWoRxSlKG4KEm%2B%2Bq8Slv1B%2FThIF3Lz0UUYwOR8sjx3S5bcKCOQ%2FfIVDYTemXvlQsHnaZwHSAlh0Wp5kbKl7rvwcA%3D&redirect_uri=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Fapple%2Fredirect">
+
+          CONTINUE WITH APPLE</a> </button><br>
+
+      <button class="btn2"><img src="./images/google.png" width="20px" height="20px"></a>
+        <a href="https://accounts.google.com/"> CONTINUE WITH GOOGLE</a></button><BR>
+
+      <button class="btn3"><a
+          href="https://accounts.spotify.com/en/login/phone?continue=https%3A%2F%2Fopen.spotify.com%2F__noul__%3Fl2l%3D1%26nd%3D1">
+          CONTINUE WITH PHONE NUMBER</a></button>
+      <HR>
+      <!-- login form   -->
+      <div>
+        <form>
+          <!-- Email input -->
+          <div class="form"></div>
+          <label class="form-label" for="in1"><b>Email address or username</b><br>
+            <input type="email" id="in1" class="form-control" placeholder="Email address or username" />
+          </label><br>
+          <label class="form-label" for="in2"><b>Password</b><br>
+            <input type="Password" id="in2" class="form-control" placeholder="Password" />
+          </label><br>
+          <label class="form-label" for="in2"><a href="https://accounts.spotify.com/en/password-reset">Forgot your
+              password?</a> <br>
+            <input type="checkbox" name="check">Remember me
+          </label><br>
+          <button class="btn4">LOGIN IN </button>
+          <hr>
+          <span class="big">Don't have an account?</span><BR>
+          <button class="btn5">
+            <a href="./Sign.html"> SIGN UP FOR SPOTIFY</a></button>
+
+      </div>
+
+
+    </div>
+
+
+  </div>
+</body>
+
+</html>

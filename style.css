@@ -1,0 +1,128 @@
+.nav-link {
+    color:white;
+    font-size: 20px;
+}
+.navbar-brand{
+    color: white;
+    font-size: 40px;
+    font-family: Arial Black;
+}
+.navbar{
+    background-color: black;
+}
+.container-item1{
+    background-color: #BF28BB;
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+.item-2{
+    margin: 100px;
+   
+}
+.item-3{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    padding: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-button{
+background-color: white;
+color:black;
+border: none;
+padding: 30px;
+font-weight: bold;
+font-size: 20px;
+border-radius: 40px;
+}
+.heading{
+    padding:40px;
+}
+.fs-mid{
+    font-size: 15px;
+    font-family: Helvetica,Arial,sans-serif;;
+}
+.flex-conatianer{
+    display: flex;
+}
+.container-new{
+    background-color: #8717D5;
+    width: 100%;
+    height: 50%;
+    font-weight: bold;
+}
+.itemNew{
+    padding: 10%;
+    color: white;
+    font-size:40px;
+}
+.btn-link{
+    text-align: center;
+    font-weight: BOLD;
+    color:black;
+}
+.container-header{
+background-color: #B525C0;
+    width: 100%;
+    height: 20%;
+    font-weight: bold;
+}
+.itemNew2{
+    padding: 10%;
+    color: white;
+    font-size:50px;
+}
+.Newbutton{
+    background-color: white;
+    color:black;
+    border: none;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.text-center{
+    padding: 50px;
+}
+.new2{
+    padding: 70px;
+    display: flex;
+    background-color: black;
+}
+.link{
+    color:white;
+}
+.new2 > div{
+color: white;
+width: 100%;
+height: 200px;
+}
+.fa-facebook {
+    background: black;
+    color: white;
+  padding: 20px;
+margin: 10px;
+font-size: 20px;
+  }
+  .fa-instagram{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+
+  }
+  .fa-twitter{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+
+  }
+  .footer{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+
+  }
